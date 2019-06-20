@@ -14,7 +14,7 @@ spring:
           #基本属性
           url: jdbc:mysql://127.0.0.1:3306/lu_tale?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
           username: root
-          password: mac123
+          password: root
           #配置初始化大小/最小/最大
           initial-size: 1
           min-idle: 1
@@ -68,9 +68,10 @@ logging:
 swagger:
   show: true
 
+
 qiniu:
-  accesskey: ""
-  serectkey: ""
+  accesskey: "PfRDVLqg5rmFa802MCOnDGMLiQd9V1ISdjaoamMx"
+  serectkey: "S2zkABkRWKQbI9ZYhc6t7E417fkfO6S30ARyyf4t"
   bucket: ""
   cdn:
     url: ""
