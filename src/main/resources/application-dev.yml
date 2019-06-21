@@ -72,6 +72,6 @@ swagger:
 qiniu:
   accesskey: "PfRDVLqg5rmFa802MCOnDGMLiQd9V1ISdjaoamMx"
   serectkey: "S2zkABkRWKQbI9ZYhc6t7E417fkfO6S30ARyyf4t"
-  bucket: ""
+  bucket: "charon_img"
   cdn:
-    url: ""
+    url: "http://ptdw2kfvw.bkt.clouddn.com/"

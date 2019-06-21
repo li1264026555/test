@@ -40,8 +40,9 @@ public class QiniuCloudService {
 
     public String upload(MultipartFile file, String fileName) {
 
-        //构造一个带指定Zone对象的配置类
-        Configuration cfg = new Configuration(Zone.zone0());
+        //构造一个带指定Zone对象的配置类 文件上传区域
+        // Zone.zone0() 华东 Zone.zone1() 华北 Zone.zone2() 华南  Zone.zoneNa0() 北美  Zone.zoneAs0() 东南亚
+        Configuration cfg = new Configuration(Zone.zone2());
         //...其他参数参考类注释
         UploadManager uploadManager = new UploadManager(cfg);
         //默认不指定key的情况下，以文件内容的hash值作为文件名
